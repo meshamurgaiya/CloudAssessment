@@ -1,0 +1,88 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        section {
+            background-color: white;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #ccc;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Student Project</h1>
+</header>
+
+<section>
+    <h2>Student Information</h2>
+    <p><strong>Name:</strong> Jane Doe</p>
+    <p><strong>Class:</strong> 10th Grade</p>
+    <p><strong>School:</strong> Sunshine High School</p>
+</section>
+
+<section>
+    <h2>Subjects</h2>
+    <ul>
+        <li>Mathematics</li>
+        <li>Science</li>
+        <li>History</li>
+        <li>English</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Feedback Form</h2>
+    <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" placeholder="Write your feedback here..." required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+</body>
+</html>
